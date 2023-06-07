@@ -1,6 +1,12 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[ show edit update destroy ]
 
+  # TODO Someone please fix this
+  # FIXME Someone please fix this
+  # OPTIMIZEME Someone please fix this
+  # DEPRECATEME Someone please fix this
+  # TESTME Someone please fix this
+
   def index
     @users = User.all
   end

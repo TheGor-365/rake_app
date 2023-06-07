@@ -18,5 +18,8 @@ module RakeApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.annotations.register_tags('DEPRECATEME', 'TESTME')
+    config.annotations.register_extensions('css')
   end
 end
