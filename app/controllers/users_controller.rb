@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   # TESTME Someone please fix this
 
   def index
-    @users = User.all
+    @users = User.all.order(name: :asc)
   end
 
   def show
